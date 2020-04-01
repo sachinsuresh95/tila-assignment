@@ -1,0 +1,16 @@
+.product-section {
+    display: flex;
+}
+.product-comparison-table .table td{
+    width: 300px;
+    border-right: 1px solid #ddd;
+}
+.add-component {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.add-component select {
+    width: 100%;
+}

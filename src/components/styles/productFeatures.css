@@ -1,0 +1,19 @@
+.product-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+.product-features img {
+    width: 100%;
+}
+.remove-product {
+    background-color: #ddd;
+    position: absolute;
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    top: -20px;
+    right: -10px;
+    cursor: pointer;
+}
